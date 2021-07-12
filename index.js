@@ -13,11 +13,11 @@
 
 
 
-
-if(randomNumber1 > randomNumber2){
-  document.querySelector("h1").innerHTML = "Girlfriend wins!"
-}else if(randomNumber1 < randomNumber2){
-  document.querySelector("h1").innerHTML = "Boyfriend wins!"
-}else {
-  document.querySelector("h1").innerHTML = "It's a Draw!"
-}
+  if(randomNumber1 > randomNumber2){
+    document.querySelector("h1").innerHTML = "Girlfriend wins!"
+  }else if(randomNumber1 < randomNumber2){
+    document.querySelector("h1").innerHTML = "Boyfriend wins!"
+  }else {
+    document.querySelector("h1").innerHTML = "Single Wins"
+  }
+  
